@@ -1,0 +1,8 @@
+@import './font-face';
+
+* {
+  font-family: 'Noto Sans Multi-Lang', 'sans-serif';
+}
+.monospace, code, pre {
+  font-family: 'Noto Sans Mono Multi-Lang', 'Noto Sans Multi-Lang', 'monospace';
+}
