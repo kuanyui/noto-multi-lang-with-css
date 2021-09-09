@@ -1,0 +1,92 @@
+/* ===================================== */
+/* Latin, Cyrillic, Greek */
+/* ===================================== */
+@font-face {
+  font-family: 'Noto Sans Multi-Lang';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Noto Sans Regular'),
+  url('../fonts/NotoSans-Regular.ttf') format('truetype');
+}
+@font-face {
+  font-family: 'Noto Sans Multi-Lang';
+  font-style: bold;
+  font-weight: 800;
+  src: local('Noto Sans Bold'),
+  url('../fonts/NotoSans-Bold.ttf') format('truetype');
+}
+/* ===================================== */
+/* Monospace */
+/* ===================================== */
+@font-face {
+  font-family: 'Noto Sans Mono Multi-Lang';
+  font-style: normal;
+  font-weight: 400;
+  src: local('NotoSansMono Regular'), local('NotoSans Mono Regular'),
+  url('../fonts/NotoSansMono-Regular.ttf');
+}
+@font-face {
+  font-family: 'Noto Sans Mono Multi-Lang';
+  font-style: bold;
+  font-weight: 800;
+  src: local('NotoSansMono Bold'), local('NotoSans Mono Bold'),
+  url('../fonts/NotoSansMono-Bold.ttf');
+}
+/* ===================================== */
+/* CJK */
+/* ===================================== */
+@font-face {
+  font-family: 'Noto Sans Multi-Lang';
+  font-style: normal;
+  font-weight: 400;
+  src: local('NotoSans CJK JP Regular'), local('Noto Sans CJK JP Regular'), local('Noto Sans CJK JP Regular'), local('Noto Sans CJK JP'),
+  url('../fonts/NotoSansCJKjp-Regular.woff2') format('woff2');
+  unicode-range: U+2E80-D7AF, U+F900-FAFF, U+FF00-FFEF;
+}
+@font-face {
+  font-family: 'Noto Sans Multi-Lang';
+  font-style: bold;
+  font-weight: 800;
+  src: local('NotoSans CJK JP Black'),  local('Noto Sans CJK JP Black'),
+  url('../fonts/NotoSansCJKjp-Black.woff2') format('woff2');
+  unicode-range: U+2E80-D7AF, U+F900-FAFF, U+FF00-FFEF;
+}
+/* ===================================== */
+/* Hebrew */
+/* ===================================== */
+@font-face {
+  font-family: 'Noto Sans Multi-Lang';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Noto Sans Hebrew Regular'),
+  url('../fonts/NotoSansHebrew-Regular.ttf') format('truetype');
+  unicode-range: U+0590-05FF;
+}
+@font-face {
+  font-family: 'Noto Sans Multi-Lang';
+  font-style: bold;
+  font-weight: 800;
+  src: local('Noto Sans Hebrew Bold'),
+  url('../fonts/NotoSansHebrew-Bold.ttf') format('truetype');
+  unicode-range: U+0590-05FF;
+}
+/* ===================================== */
+/* Arabic */
+/* ===================================== */
+@font-face {
+  font-family: 'Noto Sans Multi-Lang';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Noto Sans Arabic UI Regular'),
+  url('../fonts/NotoSansArabicUI-Regular.ttf') format('truetype');
+  unicode-range: U+0600-06FF, U+FB50-FDFF, U+FE70-FEFF;
+}
+@font-face {
+  font-family: 'Noto Sans Multi-Lang';
+  font-style: bold;
+  font-weight: 800;
+  src: local('Noto Sans Arabic UI JP Bold'),
+  url('../fonts/NotoSansArabicUI-Bold.ttf') format('truetype');
+  unicode-range: U+0600-06FF, U+FB50-FDFF, U+FE70-FEFF;
+}
+

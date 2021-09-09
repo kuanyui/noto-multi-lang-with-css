@@ -25,3 +25,9 @@ Because I'm lazy.
 
 Use [kombu](https://kombu.kanejaku.org/) to convert fonts into `woff2` in browser, but it can process one font at a time. So I'm too lazy to convert all of them currently.
 
+## Why not use SCSS (SASS)?
+I don't know why `sass-loader` does cause `css-loader` cannot correctly resolve the relative path in `url()`. I guess it's because Webpack is a shit.
+
+[The official documentation `sass-loader` has some explanations about this though](https://v4.webpack.js.org/loaders/sass-loader/#problems-with-url), but I decided not to argue with it and use pure CSS in this project.
+
+And this would be more easy to use. You can directly `@import` `.css` in `.scss`, and `url()` can be resolved correctly without disgusting webpack config.
