@@ -3,7 +3,7 @@
 # What is and Why This?
 - Pre-build Noto Sans Fonts (woff2) + pre-defined `@font-face` with appropriate `src: local()` and `unicode-range:` definitions. So the correcponding fonts will be lazy-loaded only when it indeedly needed in the page.
 - Use this repo as submodule, to prevent your project repo from storing lots of large-sized font binary files.
-> According to Noto's issue tracker, Due to the limitation of font format, the glyphs amount is limited in a font file, so Noto doesn't provide a font dist containing all languages
+> According to Noto's issue tracker, due to the technical limitation of font format, the glyphs amount is limited in a font file, so Noto doesn't provide a single font dist containing all languages.
 
 # Supported Alphabets / Characters
 - Latin / Cyrillic / Greek
@@ -13,7 +13,7 @@
 
 # Q & A
 ## What are the Unicode ranges?
-Check the reference at https://jrgraphix.net/r/Unicode/ or [unicode-reference.md](/unicode-reference.md) in this repo.
+Check the reference at https://jrgraphix.net/r/Unicode/ or [unicode-reference](/unicode-reference) in this repo.
 
 ## Why some unused font files?
 Just ignore them, they are remained because they can be used to replace existing fonts easily.
